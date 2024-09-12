@@ -1,0 +1,101 @@
+package com.project.aloneBab.board.model.vo;
+
+import java.sql.Date;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Setter
+@Getter
+@ToString
+public class Board {
+	private int boardNo;
+	private String boardGenre;
+	private String writer;
+	private String title;
+	private String content;
+	private Date createDate;
+	private Date updateDate;
+	private String status;
+	private int boardCount;
+	public int getBoardNo() {
+		return boardNo;
+	}
+	public void setBoardNo(int boardNo) {
+		this.boardNo = boardNo;
+	}
+	public String getBoardGenre() {
+		return boardGenre;
+	}
+	public void setBoardGenre(String boardGenre) {
+		this.boardGenre = boardGenre;
+	}
+	public String getWriter() {
+		return writer;
+	}
+	public void setWriter(String writer) {
+		this.writer = writer;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getContent() {
+		return content;
+	}
+	public void setContent(String content) {
+		this.content = content;
+	}
+	public Date getCreateDate() {
+		return createDate;
+	}
+	public void setCreateDate(Date createDate) {
+		this.createDate = createDate;
+	}
+	public Date getUpdateDate() {
+		return updateDate;
+	}
+	public void setUpdateDate(Date updateDate) {
+		this.updateDate = updateDate;
+	}
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	public int getBoardCount() {
+		return boardCount;
+	}
+	public void setBoardCount(int boardCount) {
+		this.boardCount = boardCount;
+	}
+	@Override
+	public String toString() {
+		return "Board [boardNo=" + boardNo + ", boardGenre=" + boardGenre + ", writer=" + writer + ", title=" + title
+				+ ", content=" + content + ", createDate=" + createDate + ", updateDate=" + updateDate + ", status="
+				+ status + ", boardCount=" + boardCount + "]";
+	}
+	public Board(int boardNo, String boardGenre, String writer, String title, String content, Date createDate,
+			Date updateDate, String status, int boardCount) {
+		super();
+		this.boardNo = boardNo;
+		this.boardGenre = boardGenre;
+		this.writer = writer;
+		this.title = title;
+		this.content = content;
+		this.createDate = createDate;
+		this.updateDate = updateDate;
+		this.status = status;
+		this.boardCount = boardCount;
+	}	
+	
+	public Board() {}
+}

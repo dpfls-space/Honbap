@@ -1,0 +1,82 @@
+package com.project.aloneBab.board.model.vo;
+
+import java.sql.Date;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString
+public class Reply {
+	private int replyNo;
+	private String writer;
+	private int boardNo;
+	private String content;
+	private Date createDate;
+	private Date updateDate;
+	private String status;
+	public int getReplyNo() {
+		return replyNo;
+	}
+	public void setReplyNo(int replyNo) {
+		this.replyNo = replyNo;
+	}
+	public String getWriter() {
+		return writer;
+	}
+	public void setWriter(String writer) {
+		this.writer = writer;
+	}
+	public int getBoardNo() {
+		return boardNo;
+	}
+	public void setBoardNo(int boardNo) {
+		this.boardNo = boardNo;
+	}
+	public String getContent() {
+		return content;
+	}
+	public void setContent(String content) {
+		this.content = content;
+	}
+	public Date getCreateDate() {
+		return createDate;
+	}
+	public void setCreateDate(Date createDate) {
+		this.createDate = createDate;
+	}
+	public Date getUpdateDate() {
+		return updateDate;
+	}
+	public void setUpdateDate(Date updateDate) {
+		this.updateDate = updateDate;
+	}
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	@Override
+	public String toString() {
+		return "Reply [replyNo=" + replyNo + ", writer=" + writer + ", boardNo=" + boardNo + ", content=" + content
+				+ ", createDate=" + createDate + ", updateDate=" + updateDate + ", status=" + status + "]";
+	}
+	public Reply(int replyNo, String writer, int boardNo, String content, Date createDate, Date updateDate,
+			String status) {
+		super();
+		this.replyNo = replyNo;
+		this.writer = writer;
+		this.boardNo = boardNo;
+		this.content = content;
+		this.createDate = createDate;
+		this.updateDate = updateDate;
+		this.status = status;
+	}
+	
+	public Reply() {}
+}

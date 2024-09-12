@@ -1,0 +1,35 @@
+
+7월 15, 2024 11:16:10.565 NEW SESSION
+7월 15, 2024 11:16:10.565 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 15, 2024 14:42:56.793 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 15, 2024 18:28:22.795 [8344:7540:0715/182822.795:ERROR:interface_endpoint_client.cc(722)] Message 5 rejected by interface blink.mojom.WidgetHost
+7월 15, 2024 18:32:58.763 [8344:7540:0715/183258.763:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+7월 15, 2024 18:32:58.763 [8344:7540:0715/183258.763:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+7월 16, 2024 10:19:29.959 NEW SESSION
+7월 16, 2024 10:19:29.959 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 16, 2024 17:25:56.27 [13200:6852:0716/172556.027:ERROR:CONSOLE(1)] "Request Runtime.evaluate failed. {"code":-32602,"message":"uniqueContextId not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+7월 16, 2024 17:25:56.30 [13200:6852:0716/172556.030:ERROR:CONSOLE(1)] "uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+7월 16, 2024 17:25:56.290 [13200:6852:0716/172556.290:ERROR:CONSOLE(1)] "Request Runtime.evaluate failed. {"code":-32602,"message":"uniqueContextId not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+7월 16, 2024 17:25:56.291 [13200:6852:0716/172556.290:ERROR:CONSOLE(1)] "uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+7월 16, 2024 17:32:44.266 [13200:6852:0716/173244.265:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+7월 16, 2024 17:32:44.379 [13200:6852:0716/173244.379:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+7월 16, 2024 17:47:24.928 [13200:6852:0716/174724.927:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+7월 16, 2024 17:48:05.873 [13200:6852:0716/174805.872:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+7월 16, 2024 17:48:06.271 [13200:6852:0716/174806.270:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+7월 16, 2024 17:48:07.15 [13200:6852:0716/174807.014:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+7월 16, 2024 17:49:18.235 [13200:6852:0716/174918.234:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+7월 16, 2024 17:49:19.244 [13200:6852:0716/174919.244:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+7월 16, 2024 17:49:19.245 [13200:6852:0716/174919.244:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+7월 16, 2024 17:49:19.253 [13200:6852:0716/174919.252:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+7월 16, 2024 17:49:19.522 [13200:6852:0716/174919.521:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+7월 16, 2024 17:50:32.241 [13200:6852:0716/175032.241:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+
+7월 18, 2024 17:08:41.879 NEW SESSION
+7월 18, 2024 17:08:41.879 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+7월 18, 2024 18:50:43.174 NEW SESSION
+7월 18, 2024 18:50:43.174 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+7월 19, 2024 10:09:01.834 NEW SESSION
+7월 19, 2024 10:09:01.834 Created TensorFlow Lite XNNPACK delegate for CPU.

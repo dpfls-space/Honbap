@@ -1,0 +1,64 @@
+package com.project.aloneBab.board.model.vo;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString
+public class Image {
+	private int imgNo;
+	private int recipeNo;
+	private String imageURL;
+	private String imageName;
+	private int titleImg;
+	public int getImgNo() {
+		return imgNo;
+	}
+	public void setImgNo(int imgNo) {
+		this.imgNo = imgNo;
+	}
+	public int getRecipeNo() {
+		return recipeNo;
+	}
+	public void setRecipeNo(int recipeNo) {
+		this.recipeNo = recipeNo;
+	}
+	public String getImageURL() {
+		return imageURL;
+	}
+	public void setImageURL(String imageURL) {
+		this.imageURL = imageURL;
+	}
+	public String getImageName() {
+		return imageName;
+	}
+	public void setImageName(String imageName) {
+		this.imageName = imageName;
+	}
+	public int getTitleImg() {
+		return titleImg;
+	}
+	public void setTitleImg(int titleImg) {
+		this.titleImg = titleImg;
+	}
+	@Override
+	public String toString() {
+		return "Image [imgNo=" + imgNo + ", recipeNo=" + recipeNo + ", imageURL=" + imageURL + ", imageName="
+				+ imageName + ", titleImg=" + titleImg + "]";
+	}
+	public Image(int imgNo, int recipeNo, String imageURL, String imageName, int titleImg) {
+		super();
+		this.imgNo = imgNo;
+		this.recipeNo = recipeNo;
+		this.imageURL = imageURL;
+		this.imageName = imageName;
+		this.titleImg = titleImg;
+	}
+	
+	public Image() {}
+	
+}

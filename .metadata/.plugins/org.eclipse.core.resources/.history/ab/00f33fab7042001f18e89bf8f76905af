@@ -1,0 +1,83 @@
+package com.project.aloneBab.board.model.vo;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString
+public class RandomRecipe {
+	private int boardNo;
+	private String title;
+	private int recipeNo;
+	private int imageNo;
+	private String imageURL;
+	private String imageName;
+	private int titleImg;
+	
+	public int getBoardNo() {
+		return boardNo;
+	}
+	public void setBoardNo(int boardNo) {
+		this.boardNo = boardNo;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public int getRecipeNo() {
+		return recipeNo;
+	}
+	public void setRecipeNo(int recipeNo) {
+		this.recipeNo = recipeNo;
+	}
+	public int getImageNo() {
+		return imageNo;
+	}
+	public void setImageNo(int imageNo) {
+		this.imageNo = imageNo;
+	}
+	public String getImageURL() {
+		return imageURL;
+	}
+	public void setImageURL(String imageURL) {
+		this.imageURL = imageURL;
+	}
+	public String getImageName() {
+		return imageName;
+	}
+	public void setImageName(String imageName) {
+		this.imageName = imageName;
+	}
+	public int getTitleImg() {
+		return titleImg;
+	}
+	public void setTitleImg(int titleImg) {
+		this.titleImg = titleImg;
+	}
+	@Override
+	public String toString() {
+		return "RandomRecipe [boardNo=" + boardNo + ", title=" + title + ", recipeNo=" + recipeNo + ", imageNo="
+				+ imageNo + ", imageURL=" + imageURL + ", imageName=" + imageName + ", titleImg=" + titleImg + "]";
+	}
+	public RandomRecipe(int boardNo, String title, int recipeNo, int imageNo, String imageURL, String imageName,
+			int titleImg) {
+		super();
+		this.boardNo = boardNo;
+		this.title = title;
+		this.recipeNo = recipeNo;
+		this.imageNo = imageNo;
+		this.imageURL = imageURL;
+		this.imageName = imageName;
+		this.titleImg = titleImg;
+	}
+	
+	public RandomRecipe() {}
+}

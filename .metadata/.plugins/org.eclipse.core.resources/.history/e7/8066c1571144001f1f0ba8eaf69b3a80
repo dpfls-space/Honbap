@@ -1,0 +1,101 @@
+package com.project.aloneBab.member.model.vo;
+
+import java.sql.Date;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@ToString
+public class Member {
+	private String name;
+	private String id;
+	private String pwd;
+	private String phone;
+	private String address;
+	private String isAdmin;
+	private String status;
+	private Date joinDate;
+	private String signupPath;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getPwd() {
+		return pwd;
+	}
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
+	}
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public String getIsAdmin() {
+		return isAdmin;
+	}
+	public void setIsAdmin(String isAdmin) {
+		this.isAdmin = isAdmin;
+	}
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	public Date getJoinDate() {
+		return joinDate;
+	}
+	public void setJoinDate(Date joinDate) {
+		this.joinDate = joinDate;
+	}
+	public String getSignupPath() {
+		return signupPath;
+	}
+	public void setSignupPath(String signupPath) {
+		this.signupPath = signupPath;
+	}
+	@Override
+	public String toString() {
+		return "Member [name=" + name + ", id=" + id + ", pwd=" + pwd + ", phone=" + phone + ", address=" + address
+				+ ", isAdmin=" + isAdmin + ", status=" + status + ", joinDate=" + joinDate + ", signupPath="
+				+ signupPath + "]";
+	}
+	public Member(String name, String id, String pwd, String phone, String address, String isAdmin, String status,
+			Date joinDate, String signupPath) {
+		super();
+		this.name = name;
+		this.id = id;
+		this.pwd = pwd;
+		this.phone = phone;
+		this.address = address;
+		this.isAdmin = isAdmin;
+		this.status = status;
+		this.joinDate = joinDate;
+		this.signupPath = signupPath;
+	}
+	
+	public Member() {}
+}

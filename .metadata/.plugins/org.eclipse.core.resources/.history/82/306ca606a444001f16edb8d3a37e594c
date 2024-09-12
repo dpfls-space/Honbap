@@ -1,0 +1,49 @@
+package com.project.aloneBab.board.model.vo;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString
+public class DivideSearch {
+	
+	private String searchWord;
+	private String nation;
+	private String difficulty;
+	public String getSearchWord() {
+		return searchWord;
+	}
+	public void setSearchWord(String searchWord) {
+		this.searchWord = searchWord;
+	}
+	public String getNation() {
+		return nation;
+	}
+	public void setNation(String nation) {
+		this.nation = nation;
+	}
+	public String getDifficulty() {
+		return difficulty;
+	}
+	public void setDifficulty(String difficulty) {
+		this.difficulty = difficulty;
+	}
+	@Override
+	public String toString() {
+		return "DivideSearch [searchWord=" + searchWord + ", nation=" + nation + ", difficulty=" + difficulty + "]";
+	}
+	public DivideSearch(String searchWord, String nation, String difficulty) {
+		super();
+		this.searchWord = searchWord;
+		this.nation = nation;
+		this.difficulty = difficulty;
+	}
+	
+	public DivideSearch() {}
+}
